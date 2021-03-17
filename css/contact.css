@@ -1,0 +1,255 @@
+/* For Mobile */
+@media only screen and (min-width:320px) {
+    body {
+        margin: 0;
+        background-color: #1E1F06;
+    }
+
+    /* Removing underline from ul */
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    nav li a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    .nav li {
+        float: none;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    to {
+        transform: scale(0.5);
+    }
+
+
+
+    to {
+        transform: scale(0.5);
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        color: #1E1F06;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        color: rgb(134, 95, 44);
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .contact {
+        background-color: black;
+        color: #f2f2f2;
+        border-radius: 30px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form {
+        background-color: #a8aaa9;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input[type=text] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px;
+        display: inline-block;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    input[type=email] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px;
+        display: inline-block;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        box-sizing: border-box;
+
+    }
+
+    .Message {
+        width: 90%;
+        height: 100px;
+        padding: 10px 20px;
+        margin: 8px;
+        display: inline-block;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        background-color: black;
+        color: #f2f2f2;
+        border-radius: 30px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+/*** contact button lights up red so the user knows hes clicked the button ***/
+    .contact:hover {
+        background: red;
+        color: white;
+    }
+
+    .footer {
+        background-color: black;
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 40px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        color: white;
+    }
+}
+    .logo2 {
+        width: 19%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: grow;
+        animation-duration: 3s;
+        animation-name: grow;
+        animation-duration: 3s;
+    }
+    /*** Adding keyframes so when people go on the contact page they see the logo in a welcoming way ***/
+    @keyframes grow {
+        from{ transform: scale(1);}
+        to{ transform: scale(1.5);}
+}
+    /*** Adding keyframes so when people go on the contact page they see the logo in a welcoming way ***/
+    @keyframes grow {
+        from{ transform: scale(1);}
+        to{ transform: scale(1.5);}
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    .head {
+        display: flex;
+    }
+
+    .logo {
+        width: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo2 {
+        width: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: inline;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+    }
+
+    nav li a {
+        padding: 14px 16px;
+    }
+}
+
+
+/* For Desktop Mockup */
+@media only screen and (min-width:958px) {
+    #fi {
+        display: flex;
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .logo2 {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: grow;
+        animation-duration: 3s;
+    }
+    /*** Adding keyframes so when people go on the contact page they see the logo in a welcoming way ***/
+    @keyframes grow {
+        from{ transform: scale(1);}
+        to{ transform: scale(1.5);}
+}
+
+    .form {
+        background-color: #a8aaa9;
+        border: none;
+        border-radius: 18px;
+        width: 1000px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .i {
+        width: 50%;
+    }
+}
